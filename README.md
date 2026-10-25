@@ -18,7 +18,7 @@ text
 ├── requirements.txt           # Dependencies
 └── README.md
 
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 Model: scikit-learn (Random Forest in a Pipeline)
 Backend: FastAPI + Pydantic
 Frontend: Streamlit + Plotly
@@ -44,7 +44,7 @@ bash
 streamlit run app.py
 Then in the sidebar, set the API URL to http://localhost:8000 and click Check API connection.
 
-# 🔌 API
+## 🔌 API
 POST /predict
 Request:
 
@@ -72,7 +72,7 @@ json
   "predicted_mental_health_score": 7   
 }
 
-# 📦 Requirements
+## 📦 Requirements
 - streamlit
 - fastapi
 - uvicorn
