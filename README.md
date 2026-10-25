@@ -1,7 +1,7 @@
 # Mental Health Score Prediction
 A machine learning web app that predicts a student's Mental Health Score (0–10) based on their lifestyle, academic, and social media habits.
 
-# 📖 About
+## 📖 About
 Student Wellbeing Lab lets users input their daily habits — sleep, study time, physical activity, stress level, and social media usage — and returns a predicted mental health score displayed on an interactive gauge.
 
 The project has two parts:
@@ -9,7 +9,7 @@ The project has two parts:
 FastAPI backend — serves the trained ML model
 Streamlit frontend — a clean dark-themed dashboard
 
-# 📂 Project Structure
+## 📂 Project Structure
 text
 ├── app.py                     # Streamlit frontend
 ├── main.py                    # FastAPI backend
