@@ -12,10 +12,15 @@ Streamlit frontend — a clean dark-themed dashboard
 ## 📂 Project Structure
 text
 ├── app.py                     # Streamlit frontend
+
 ├── main.py                    # FastAPI backend
+
 ├── Mental_Health_Model.pkl    # Trained scikit-learn model
+
 ├── config.toml                # Streamlit theme config
+
 ├── requirements.txt           # Dependencies
+
 └── README.md
 
 ## 🛠 Tech Stack
