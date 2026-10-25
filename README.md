@@ -67,7 +67,9 @@ json
 Response:
 
 json
-{ "predicted_mental_health_score": 7 }
+{ 
+  "predicted_mental_health_score": 7   
+}
 
 # 📦 Requirements
 - streamlit
