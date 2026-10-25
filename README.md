@@ -58,7 +58,7 @@ Request:
 json
 {
 -  "age": 21,
--  "gender": "Female",
+-  "gender": "Male",
 -  "country": "India",
 -  "academic_level": "Undergraduate",
 -  "most_used_platform": "Instagram",
@@ -76,7 +76,7 @@ Response:
 json
 
 { 
-  "predicted_mental_health_score": 7   
+  "predicted_mental_health_score": 6   
 }
 
 ## 📦 Requirements
