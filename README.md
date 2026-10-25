@@ -33,7 +33,7 @@ text
 Run Locally
 1. Clone & install
 bash
-git clone https://github.com/<your-username>/student-wellbeing-lab.git
+git clone https://github.com/<your-username>/Mental_Health_Score_Prediction.git
 cd student-wellbeing-lab
 
 python -m venv venv
