@@ -33,13 +33,13 @@ text
 Run Locally
 1. Clone & install
 bash
-git clone https://github.com/<your-username>/Mental_Health_Score_Prediction.git
-cd student-wellbeing-lab
+##### git clone https://github.com/<your-username>/Mental_Health_Score_Prediction.git
+##### cd Mental_Health_Prediction
 
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+##### python -m venv venv
+##### source venv/bin/activate        # Windows: venv\Scripts\activate
 
-pip install -r requirements.txt
+##### pip install -r requirements.txt
 
 2. Start the API
 bash
