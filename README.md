@@ -11,6 +11,7 @@ Streamlit frontend — a clean dark-themed dashboard
 
 ## 📂 Project Structure
 text
+
 ├── app.py                     # Streamlit frontend
 
 ├── main.py                    # FastAPI backend
@@ -24,10 +25,10 @@ text
 └── README.md
 
 ## 🛠 Tech Stack
-Model: scikit-learn (Random Forest in a Pipeline)
-Backend: FastAPI + Pydantic
-Frontend: Streamlit + Plotly
-Other: pandas, numpy, joblib
+- Model: scikit-learn (Random Forest in a Pipeline)
+- Backend: FastAPI + Pydantic
+- Frontend: Streamlit + Plotly
+- Other: pandas, numpy, joblib
 
 Run Locally
 1. Clone & install
@@ -39,6 +40,7 @@ python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
+
 2. Start the API
 bash
 uvicorn main:app --reload --port 8000
