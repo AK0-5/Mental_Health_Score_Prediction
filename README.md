@@ -68,9 +68,9 @@ json
 { "predicted_mental_health_score": 7 }
 
 # 📦 Requirements
-streamlit
-fastapi
-uvicorn
+-- streamlit
+-- fastapi
+-- uvicorn
 scikit-learn
 joblib
 pandas
