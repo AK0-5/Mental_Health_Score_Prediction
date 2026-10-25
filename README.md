@@ -49,18 +49,18 @@ POST /predict
 Request:
 json
 {
-  "age": 21,
-  "gender": "Female",
-  "country": "India",
-  "academic_level": "Undergraduate",
-  "most_used_platform": "Instagram",
-  "purpose_of_use": "Entertainment",
-  "avg_daily_usage_hours": 4.5,
-  "daily_unlocks": 120,
-  "study_hours": 3.0,
-  "physical_activity_hours": 1.5,
-  "sleep_hours_per_night": 6.5,
-  "stress_level": "Medium"
+-  "age": 21,
+-  "gender": "Female",
+-  "country": "India",
+-  "academic_level": "Undergraduate",
+-  "most_used_platform": "Instagram",
+-  "purpose_of_use": "Entertainment",
+-  "avg_daily_usage_hours": 4.5,
+-  "daily_unlocks": 120,
+-  "study_hours": 3.0,
+-  "physical_activity_hours": 1.5,
+-  "sleep_hours_per_night": 6.5,
+-  "stress_level": "Medium"
 }
 
 Response:
@@ -71,10 +71,9 @@ json
 - streamlit
 - fastapi
 - uvicorn
-scikit-learn
-joblib
-pandas
-numpy
-pydantic
-plotly
-requests
+- scikit-learn
+- joblib
+- pandas
+- numpy
+- pydantic
+- requests
