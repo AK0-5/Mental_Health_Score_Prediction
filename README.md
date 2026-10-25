@@ -47,6 +47,7 @@ Then in the sidebar, set the API URL to http://localhost:8000 and click Check AP
 # 🔌 API
 POST /predict
 Request:
+
 json
 {
 -  "age": 21,
@@ -64,6 +65,7 @@ json
 }
 
 Response:
+
 json
 { "predicted_mental_health_score": 7 }
 
